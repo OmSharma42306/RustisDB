@@ -4,8 +4,8 @@ A Redis-like in-memory key-value store written in Rust.
 Fast, lightweight, and safe — built for learning and experimentation.
 
 ## Features
-- [] TCP server with RESP protocol
-- [] Basic GET/SET operations
+- [ X ] TCP server with RESP protocol
+- [ X ] Basic GET/SET operations
 - [ ] Pub/Sub channels
 - [ ] Persistence (RDB / AOF style)
 - [ ] Clustering support
