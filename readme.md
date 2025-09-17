@@ -13,3 +13,7 @@ Fast, lightweight, and safe — built for learning and experimentation.
 ## Why?
 To understand how databases like Redis are built from the ground up,  
 while taking advantage of Rust’s safety and performance guarantees.
+
+
+# Architecuture.
+![image info](./image.png)

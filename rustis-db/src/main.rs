@@ -26,7 +26,7 @@ fn handle_client(mut stream : TcpStream,db : Db){
                 let parts : Vec<&str> = input.trim().split_whitespace().collect();
 
                 let response = match parts.as_slice(){
-                    ["P"] => "+PONG\r\n".to_string(),
+                    ["PING"] => "+PONG\r\n".to_string(),
                     ["SET",key,value] =>{
                         db.lock().unwrap().insert(key.to_string(), value.to_string()); 
                         "+OK\r\n".to_string()
